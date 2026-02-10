@@ -1,8 +1,10 @@
 :root {
---color-1: #EFECEC;
+--color-1: #984177;
 --color-2: #FFB0B0;
 --color-3: #FFBBBB;
---color-4: #0C2D57;
+--color-4: #1e3e4f;
+--color-5: #0C2D57;
+
 }
 body {
     color: var(--color-4);
@@ -20,3 +22,13 @@ h3{
     font-family: "Viaoda Libre", serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+#center {
+    color: rgb(134, 65, 134);
+    text-align: center;
+  }
+  .nice {
+    color: var(--color-5);
+    font-weight: bold;
+    font-family: "fantasy", cursive;
+    font-size: larger; 
+  }
