@@ -4,18 +4,20 @@
 --color-3: #FFBBBB;
 --color-4: #1e3e4f;
 --color-5: #0C2D57;
-
+--color-6: #c27489;
+--color-7: rgb(117, 21, 21);
 }
 body {
-    color: var(--color-4);
+    color: var(--color-5);
     background-color: var(--color-2);
 }
 hr{
     border-width: 4px;
-    border-color: #FFBBBB
+    border-color: #fbcece
 }
 h1{
     font-family: "dancing script", cursive;
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 h3{
@@ -23,7 +25,7 @@ h3{
 }
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 #center {
-    color: rgb(134, 65, 134);
+    color: rgb(117, 21, 21);
     text-align: center;
   }
   .nice {
@@ -31,4 +33,20 @@ h3{
     font-weight: bold;
     font-family: "fantasy", cursive;
     font-size: larger; 
+  }
+  nav{
+    background-color: var(--color-2);
+    text-align: right;
+ 
+  }
+  nav a{
+    color: var(--color-4);
+    text-decoration: none;
+    padding:16px;
+    display: inline-block;
+    
+  }
+  nav a:hover {
+background-color: var(--color-6);
+color:aliceblue
   }
