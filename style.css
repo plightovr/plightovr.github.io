@@ -9,7 +9,7 @@
 --color-8:rgb(117, 21, 21);
 }
 body {
-    color: var(--color-5);
+    color: var(--color-4);
     background-color: var(--color-2);
 }
 hr{
@@ -38,6 +38,8 @@ h3{
   nav{
     background-color: var(--color-2);
     text-align: right;
+    position:sticky;
+    opacity: .7;
  
   }
   nav a{
@@ -48,10 +50,19 @@ h3{
     
   }
   nav a:hover {
-background-color: var(--color-6);
+background-color: var(--color-8);
 color:aliceblue
   }
 
   img {
     color: rgb(117, 21, 21)
+  }
+  h1{
+    opacity: .8;
+  }
+  h2{
+    opacity: .8;
+  }
+  h3{
+    opacity: .8;
   }
