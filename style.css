@@ -7,6 +7,7 @@
 --color-6: #c27489;
 --color-7: rgb(146, 95, 114);
 --color-8:rgb(117, 21, 21);
+--color-9:rgb(85, 16, 17);
 }
 body {
     color: var(--color-4);
@@ -31,10 +32,10 @@ h3{
     text-align: center;
   }
   .nice {
-    color: var(--color-5);
+    color: var(--color-9);
     font-weight: bold;
     font-family: "fantasy", cursive;
-    font-size: larger; 
+    font-size: xx-large; 
   }
   nav{
     background-color: var(--color-2);
@@ -80,11 +81,13 @@ color:aliceblue
     transition: background-color 0.9s ease; /* Smooth transition for the color change */
   }
   p:nth-child(odd) {
-    background: salmon;
+    background: rgb(88, 2, 2);
+    text-decoration: underline;
   }
-  
-  p:nth-child(even) {
-    background: powderblue;
+  p:nth-child(even){
+    background: var(--color-8);
+    text-decoration: underline;
+   
   }
   tbh{
     color: var(--color-4);
@@ -99,4 +102,21 @@ color:aliceblue
   }
   a:link{
     color:var(--color-4)
+  }
+
+  .contact-page {
+    display: flex;
+    padding: 2px;
+    
+  }
+
+  .contact-page section {
+    background-color: var(--color-6);
+    border: 3px solid var(--color-8);
+    flex: 1;
+    color: aliceblue;
+  }
+
+  .contact-page p:hover {
+    background-color: rgb(146, 32, 32);
   }
