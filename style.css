@@ -80,11 +80,11 @@ color:aliceblue
     border-radius: 11px;
     transition: background-color 0.9s ease; /* Smooth transition for the color change */
   }
-  p:nth-child(odd) {
+  p:nth-child(odd) section{
     background: rgb(88, 2, 2);
     text-decoration: underline;
   }
-  p:nth-child(even){
+  p:nth-child(even) section{
     background: var(--color-8);
     text-decoration: underline;
    
@@ -120,3 +120,41 @@ color:aliceblue
   .contact-page p:hover {
     background-color: rgb(146, 32, 32);
   }
+  summary{
+    color: var(--color-9);
+  }
+  details p{
+    color: var(--color-8)
+   
+    
+  }
+  @media screen and (max-width: 480px) {
+    /* Mobile Devices */
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Tablet Devices */
+}
+@media screen and (max-width: 769px) {
+  /* Laptop/Desktop Devices */
+}
+button{
+  color: var(--color-9);
+  background-color:aliceblue
+}
+button:hover{
+  color: green
+ 
+}
+input{
+  color: var(--color-4);
+  background-color:aliceblue
+}
+input:hover{
+  color: var(--color-9);
+}
+label{
+  color: aliceblue;
+}
+textarea{
+  color: aliceblue;
+}
